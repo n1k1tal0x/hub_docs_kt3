@@ -1,0 +1,65 @@
+# ---------- Результаты сборки .NET ----------
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Xx]64/
+[Xx]86/
+[Ww][Ii][Nn]32/
+publish/
+artifacts/
+*.dll
+*.exe
+*.pdb
+*.user
+*.suo
+*.cache
+
+# ---------- Visual Studio / Rider / VS Code ----------
+.vs/
+.vscode/
+.idea/
+*.sln.docstates
+*.DotSettings.user
+
+# ---------- Тесты и покрытие кода ----------
+[Tt]est[Rr]esult*/
+coverage*.json
+coverage*.xml
+coverage*.info
+*.coverage
+*.trx
+
+# ---------- Пакеты NuGet ----------
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# ---------- Данные приложения (не должны попадать в репозиторий) ----------
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+backups/
+logs/
+*.log
+appsettings.Development.json
+settings.json
+
+# ---------- Файлы обмена ----------
+*.csv
+!docs/**/*.csv
+
+# ---------- Временные файлы Windows и Office ----------
+Thumbs.db
+ehthumbs.db
+desktop.ini
+~$*.docx
+~$*.xlsx
+*.tmp
+
+# ---------- Исключения: документация версионируется ----------
+!docs/**/*.pdf
+!docs/**/*.docx
+!docs/**/*.png
